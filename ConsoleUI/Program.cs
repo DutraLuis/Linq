@@ -11,7 +11,7 @@ namespace ConsoleUI
         {
             List<Person> people = ListManager.LoadSampleData();
 
-            people = people.Where(x => x.YearsExperience > 10).ToList();
+            people = people.Where(x => x.YearsExperience > 10 && x.Birthday.Month == 3).ToList();
 
             foreach (var person in people)
             {
