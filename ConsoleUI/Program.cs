@@ -11,7 +11,7 @@ namespace ConsoleUI
         {
             List<Person> people = ListManager.LoadSampleData();
 
-            people = people.OrderBy(x => x.LastName).ToList();
+            people = people.OrderByDescending(x => x.LastName).ToList();
 
             foreach (var person in people)
             {
