@@ -11,8 +11,7 @@ namespace ConsoleUI
         {
             List<Person> people = ListManager.LoadSampleData();
 
-            people = people.OrderByDescending(x => x.LastName)
-                           .ThenBy(x => x.YearsExperience).ToList();
+            people = people.Where(x => x.YearsExperience > 10).ToList();
 
             foreach (var person in people)
             {
