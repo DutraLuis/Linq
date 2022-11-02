@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Linq101/v16/.suo
+/ConsoleUI/bin/Debug/LinqLibrary.pdb
+/ConsoleUI/bin/Debug/LinqLibrary.dll
+/ConsoleUI/bin/Debug/ConsoleUI.pdb
+/ConsoleUI/bin/Debug/ConsoleUI.exe.config
+/ConsoleUI/bin/Debug/ConsoleUI.exe
+/ConsoleUI/obj/Debug/ConsoleUI.csproj.CopyComplete
+/ConsoleUI/obj/Debug/ConsoleUI.pdb
+/ConsoleUI/obj/Debug/ConsoleUI.exe
+/ConsoleUI/obj/Debug/ConsoleUI.csproj.FileListAbsolute.txt
+/ConsoleUI/obj/Debug/ConsoleUI.csproj.CoreCompileInputs.cache
+/LinqLibrary/bin/Debug/LinqLibrary.pdb
+/LinqLibrary/bin/Debug/LinqLibrary.dll
+/LinqLibrary/obj/Debug/LinqLibrary.pdb
+/LinqLibrary/obj/Debug/LinqLibrary.dll
+/LinqLibrary/obj/Debug/LinqLibrary.csproj.FileListAbsolute.txt
+/LinqLibrary/obj/Debug/LinqLibrary.csproj.CoreCompileInputs.cache
