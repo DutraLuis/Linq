@@ -11,12 +11,16 @@ namespace ConsoleUI
         {
             List<Person> people = ListManager.LoadSampleData();
 
-            people = people.Where(x => x.YearsExperience > 10 && x.Birthday.Month == 3).ToList();
+            //people = people.Where(x => x.YearsExperience > 10 && x.Birthday.Month == 3).ToList();
 
-            foreach (var person in people)
-            {
-                Console.WriteLine($"{ person.FirstName } { person.LastName } ({ person.Birthday.ToShortDateString() }): Experience { person.YearsExperience }");
-            }
+            //foreach (var person in people)
+            //{
+            //    Console.WriteLine($"{ person.FirstName } { person.LastName } ({ person.Birthday.ToShortDateString() }): Experience { person.YearsExperience }");
+            //}
+
+            var yearsTotal = people.Sum(x => x.YearsExperience);
+
+            Console.WriteLine($"Total years of experience is { yearsTotal }");
 
             Console.ReadLine();
         }
