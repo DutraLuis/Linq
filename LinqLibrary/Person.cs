@@ -10,6 +10,7 @@ namespace LinqLibrary
   {
     public string FirstName { get; set; }
     public string LastName { get; set; }
+    public string NickName { get; set; }
     public int YearsExperience { get; set; }
     public DateTime Birthday { get; set; }
     public string FullName {
